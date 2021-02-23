@@ -21,8 +21,8 @@ public class AssignmentTwo {
 		System.out.println("Guess a number between 1 and 100");
 		
 		    while(numGuesses >= 0) {
+			    
 			//Immediately exit program if user has run out of guesses
-
 			if(numGuesses == 0) {
 				System.out.println("Sorry! The number was " + randomInt);
 				break;
