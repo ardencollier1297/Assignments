@@ -23,7 +23,7 @@ public class CreateDeadlock {
 		Thread threadOne = new Thread(new Runnable() {
 			
 			// Cause first lock
-						@Override
+			@Override
 			public void run() {
 				try {
 					synchronized(lockOne) {
