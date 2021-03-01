@@ -32,14 +32,14 @@ public class GetFilesAndDirs {
 		
 		// Initialize a file with the name of the entered directory
 		File dir = new File(directory);
-	    File[] files = dir.listFiles();
+		File[] files = dir.listFiles();
 
-	    // Checks if a directory or file exists and prints the name
-	    if (files != null && files.length > 0) {
-	    	for (File file : files) {   
-	    		listFilesAndDirs(file.getAbsolutePath());
-	    		System.out.println(file);
-	        }
-	    }
+	    	// Checks if a directory or file exists and prints the name
+	    	if (files != null && files.length > 0) {
+	    		for (File file : files) {   
+	    			listFilesAndDirs(file.getAbsolutePath());
+	    			System.out.println(file);
+	        	}
+	   	 }
 	}
 }
