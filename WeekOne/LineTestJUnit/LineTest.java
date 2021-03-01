@@ -23,6 +23,17 @@ public class LineTest {
 	// Create two instances of the line class
 	Line line = new Line(4.0, 20.0, 8.0, 20.0);
 	Line lineTwo = new Line(8.0, 35.0, 5.0, 35.0);
+	Line lineThree = new Line(0, 35.0, 0, 35.0);
+	
+	 
+
+	// Test for getSlope where y1-y0 would be divided by 0,
+	// ensuring that an exception would be thrown
+	@Test(expected = ArithmeticException.class)
+	public void arithmeticExceptionThrown() {
+	    lineThree.getSlope();
+	}
+	
 	
 	// Create test for the getSlope() method with 0 as expected
 	// Per instructions, passed in .0001 as a delta
