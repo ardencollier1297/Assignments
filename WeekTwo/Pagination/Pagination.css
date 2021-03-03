@@ -1,0 +1,28 @@
+.books {
+  list-style-type: none;
+  margin: auto;
+  width: 50%;
+}
+
+.container {
+  margin: auto;
+  margin-top: 20px;
+}
+
+nav {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.current {
+  background-color: #e9ecef;
+}
+
+.page-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+h1 {
+  margin: auto;
+}
