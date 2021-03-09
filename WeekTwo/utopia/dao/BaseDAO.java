@@ -11,8 +11,8 @@ public abstract class BaseDAO {
 
 	public final String driver = "com.mysql.cj.jdbc.Driver";
 	public final String url = "jdbc:mysql://localhost:3306/utopia";
-	public final String user = "root";
-	public final String pass = "password";
+	public final String user = "******";
+	public final String pass = "********";
 	
 	public Connection getConnection() throws SQLException, ClassNotFoundException {
 		Class.forName(driver);
